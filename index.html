@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h1>Inicio de Sesión</h1>
-        <form>
+        <form action="login.php" method="post">
             <div class="form-group">
                 <label for="username">Usuario:</label>
                 <input type="text" id="username" name="username" required>
@@ -29,7 +29,7 @@
         
         <div class="password-recovery">
             <h2>Recuperar Contraseña</h2>
-            <form>
+            <form action="recover_password.php" method="post">
                 <div class="form-group">
                     <label for="recovery-email">Correo Electrónico:</label>
                     <input type="email" id="recovery-email" name="recovery-email" required>
@@ -42,7 +42,7 @@
         
         <div class="user-registration">
             <h2>Registrar Nuevo Usuario</h2>
-            <form>
+            <form action="register.php" method="post">
                 <div class="form-group">
                     <label for="new-username">Usuario:</label>
                     <input type="text" id="new-username" name="new-username" required>
